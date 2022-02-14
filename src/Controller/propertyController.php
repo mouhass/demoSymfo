@@ -83,113 +83,13 @@ class propertyController extends AbstractController
      */
 
    public function index(ManagerRegistry $doctrine,ValidatorInterface $validator, PropertyRepository $propertyRepository){
-//       !!!!!! faire le fetching des données à partir du fichier de l'entité
-//       $id=1;
-//       $product = $doctrine->getRepository(Property::class)->find($id);
-//       if (!$product) {
-//           throw $this->createNotFoundException(
-//               'No product found for id '.$id
-//           );
-//       }
-//       else  {
-//          echo $product->getTitle();
-//       }
+        $product = $propertyRepository->findAll();
 
+       return $this->render('property/index.html.twig',[
+           'product'=>$product
+       ]);
 
-       //!!!!!) faire le fetching des données à partir du fichier de repository
-      // !!!!!!!!!!!!!!!!!!!!!!!!
-//       $id=1;
-//       $product = $propertyRepository->find($id);
-//       echo $product->getTitle().'<br>';
-//       //!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//       $product = $propertyRepository->findOneBySomeField($id);
-//       echo $product->getCity().'<br>';
-//       //!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//       $product = $propertyRepository->findBy(['title'=>"first property"]);
-//       foreach ($product as $p ){
-//           echo $p->getId();
-//       }
-//
-//       echo '<br>'.$id;
-
-       //!!!!!!!!!!!!!!!Updating data in database
-       //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//       $entityManager = $doctrine->getManager();
-//       $product = $propertyRepository->findOneBy(['title'=>'second property']);
-//       if(!$product){
-//           echo "i didn't find what you are searching for";
-//       }
-//       else {
-//           $product->setTitle("was second property");
-//           $entityManager->persist($product);
-//           $entityManager->flush();
-//       }
-      // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-       //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-       //!!!!!!!!!!!!!!!!! remove elements from the database
-       $entityManager = $doctrine->getManager();
-       $product = $propertyRepository->findOneBy(['id'=>1]);
-       if(!$product){
-           echo "I didn't find what you are looking for";
-
-       }
-       else {
-           $entityManager->remove($product);
-           $entityManager->flush();
-       }
-       //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-       //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-//       $product = $propertyRepository->findAllGreaterPrice(200);
-//      print_r($product);
-//      echo "<br>".count($product);
-
-
-      //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-       //en utilisant une requete complexe à l'aide de sql
-       $product = $propertyRepository->findBetweenPrices(200,500000);
-//       if(!$product){echo "it is empty";}
-//       else{
-//           echo "<br>"."----------------------"."<br>";
-//           print_r($product);
-//
-//           echo "<br>".count($product);
-//       }
-
-
-       //1) Instanciation
-       // $property = new Property();
-////       //personnaliser l'insatnce
-//       $property->setTitle("first property")
-//           ->setSurface(2000)
-//           ->setPrice(300000)
-//           ->setRooms(300)
-//           ->setBedrooms(2)
-//           ->setFloor(5)
-//           ->setHeat(1)
-//           ->setCity("mahdia")
-//           ->setAddress("Av hbib bourguiba mahdia")
-//           ->setPostalCode("5111");
-//      //3) validation
-//       $errors = $validator->validate($property);
-//       if (count($errors) > 0) {
-//           return new Response((string) $errors, 400);
-//       }
-//       else {
-          // 4) ajout de données dans la base de données
-//           $entityManager = $doctrine->getManager();
-//           $entityManager->persist($property);
-//           $entityManager->flush();
-
-          // $product ="hello world";
-
-           return $this->render('property/index.html.twig',[
-               'current_menu'=> 'properties',
-               'product'=>$product,
-
-           ]);
-       }
+   }
 
        //5) Fetching des données
 

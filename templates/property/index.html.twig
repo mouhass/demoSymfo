@@ -4,16 +4,26 @@
 <div class="container mt-4">
 
         <h1>Les produits</h1>
-       <img src="{{ asset('images/camera.jpeg') }}" alt="Symfony!"/>
-{#        boucle for pour lire les données dans la liste des product#}
-        {% for pro in product %}
-                <li>{{ pro.created_at|date }} is the created date for the {{ pro.title }}</li>
-        {% endfor %}
-{#        relier des pages #}
-        <a href="{{ path("Home") }}">Retourner à la page d'acceuil</a><br>
 
-        <a href="{{ path('Login') }}">login</a>
-{#        quelle est la difference entre path url et absolute url#}
+    <div class="row flex ">
+        {% for prop in product %}
+            <div class="col-3">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ path('property.show',{id:prop.id,slug: prop.slug}) }}">{{ prop.title }}</a>
+                        </h5>
+                        <p class="card-text">
+                            {{ prop.city }}
+                        </p>
+                        <div class="text-primary" style="font-weight: bold; font-size: 2rem">
+                            {{ prop.price }} €
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 
     <br>
 {#    <a href="{{ path('property.new') }}">Remplir le formulaire</a>#}

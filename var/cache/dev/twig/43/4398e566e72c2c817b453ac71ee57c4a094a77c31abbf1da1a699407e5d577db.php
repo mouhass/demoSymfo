@@ -73,42 +73,51 @@ class __TwigTemplate_32b0da46ec01f8e788239bdfc5560215220d84b9d8505c520f2d47d1b3f
         echo "<div class=\"container mt-4\">
 
         <h1>Les produits</h1>
-       <img src=\"";
-        // line 7
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/camera.jpeg"), "html", null, true);
-        echo "\" alt=\"Symfony!\"/>
-";
+
+    <div class=\"row flex \">
+        ";
         // line 9
-        echo "        ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["product"]) || array_key_exists("product", $context) ? $context["product"] : (function () { throw new RuntimeError('Variable "product" does not exist.', 9, $this->source); })()));
-        foreach ($context['_seq'] as $context["_key"] => $context["pro"]) {
+        foreach ($context['_seq'] as $context["_key"] => $context["prop"]) {
             // line 10
-            echo "                <li>";
-            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["pro"], "created_at", [], "any", false, false, false, 10)), "html", null, true);
-            echo " is the created date for the ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["pro"], "title", [], "any", false, false, false, 10), "html", null, true);
-            echo "</li>
+            echo "            <div class=\"col-3\">
+                <div class=\"card mt-3\">
+                    <div class=\"card-body\">
+                        <h5 class=\"card-title\">
+                            <a href=\"";
+            // line 14
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("property.show", ["id" => twig_get_attribute($this->env, $this->source, $context["prop"], "id", [], "any", false, false, false, 14), "slug" => twig_get_attribute($this->env, $this->source, $context["prop"], "slug", [], "any", false, false, false, 14)]), "html", null, true);
+            echo "\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prop"], "title", [], "any", false, false, false, 14), "html", null, true);
+            echo "</a>
+                        </h5>
+                        <p class=\"card-text\">
+                            ";
+            // line 17
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prop"], "city", [], "any", false, false, false, 17), "html", null, true);
+            echo "
+                        </p>
+                        <div class=\"text-primary\" style=\"font-weight: bold; font-size: 2rem\">
+                            ";
+            // line 20
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prop"], "price", [], "any", false, false, false, 20), "html", null, true);
+            echo " €
+                        </div>
+                    </div>
+                </div>
+            </div>
         ";
         }
         $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['pro'], $context['_parent'], $context['loop']);
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['prop'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 13
-        echo "        <a href=\"";
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Home");
-        echo "\">Retourner à la page d'acceuil</a><br>
+        // line 26
+        echo "    </div>
 
-        <a href=\"";
-        // line 15
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Login");
-        echo "\">login</a>
-";
-        // line 17
-        echo "
     <br>
 ";
-        // line 20
+        // line 30
         echo "</div>
 ";
         
@@ -128,7 +137,7 @@ class __TwigTemplate_32b0da46ec01f8e788239bdfc5560215220d84b9d8505c520f2d47d1b3f
 
     public function getDebugInfo()
     {
-        return array (  112 => 20,  108 => 17,  104 => 15,  98 => 13,  87 => 10,  82 => 9,  78 => 7,  73 => 4,  66 => 3,  53 => 2,  36 => 1,);
+        return array (  121 => 30,  116 => 26,  104 => 20,  98 => 17,  90 => 14,  84 => 10,  80 => 9,  73 => 4,  66 => 3,  53 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -139,16 +148,26 @@ class __TwigTemplate_32b0da46ec01f8e788239bdfc5560215220d84b9d8505c520f2d47d1b3f
 <div class=\"container mt-4\">
 
         <h1>Les produits</h1>
-       <img src=\"{{ asset('images/camera.jpeg') }}\" alt=\"Symfony!\"/>
-{#        boucle for pour lire les données dans la liste des product#}
-        {% for pro in product %}
-                <li>{{ pro.created_at|date }} is the created date for the {{ pro.title }}</li>
-        {% endfor %}
-{#        relier des pages #}
-        <a href=\"{{ path(\"Home\") }}\">Retourner à la page d'acceuil</a><br>
 
-        <a href=\"{{ path('Login') }}\">login</a>
-{#        quelle est la difference entre path url et absolute url#}
+    <div class=\"row flex \">
+        {% for prop in product %}
+            <div class=\"col-3\">
+                <div class=\"card mt-3\">
+                    <div class=\"card-body\">
+                        <h5 class=\"card-title\">
+                            <a href=\"{{ path('property.show',{id:prop.id,slug: prop.slug}) }}\">{{ prop.title }}</a>
+                        </h5>
+                        <p class=\"card-text\">
+                            {{ prop.city }}
+                        </p>
+                        <div class=\"text-primary\" style=\"font-weight: bold; font-size: 2rem\">
+                            {{ prop.price }} €
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 
     <br>
 {#    <a href=\"{{ path('property.new') }}\">Remplir le formulaire</a>#}
