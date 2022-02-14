@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block title 'Tous nos produits' %}
+{% block body %}
+<div class="container mt-4">
+
+        <h1>Les produits</h1>
+       <img src="{{ asset('images/camera.jpeg') }}" alt="Symfony!"/>
+{#        boucle for pour lire les données dans la liste des product#}
+        {% for pro in product %}
+                <li>{{ pro.created_at|date }} is the created date for the {{ pro.title }}</li>
+        {% endfor %}
+{#        relier des pages #}
+        <a href="{{ path("Home") }}">Retourner à la page d'acceuil</a><br>
+
+        <a href="{{ path('Login') }}">login</a>
+{#        quelle est la difference entre path url et absolute url#}
+
+    <br>
+{#    <a href="{{ path('property.new') }}">Remplir le formulaire</a>#}
+</div>
+{% endblock %}

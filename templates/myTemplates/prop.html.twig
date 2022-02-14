@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% block title %} display form {% endblock%}
+{% block body %}
+    <div class="container">
+        <div class="row">
+         <h1>Remplir ce formulaire pour ajouter une proprieté</h1>
+            <div class="login-form bg-light mt-4 p-4">
+                {{ form_start(propertyForm) }}
+                    {{ form_widget(propertyForm) }}
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                {{ form_end(propertyForm) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}

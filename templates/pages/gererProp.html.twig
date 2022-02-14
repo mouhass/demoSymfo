@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+{% block title 'Gérer tous les produits' %}
+{% block body %}
+    <div class="container mt-4">
+
+        <h1>Mes produits</h1>
+        <div class="row">
+            <div class=" col-md-9 ">
+                <table class="table table-striped mt-4">
+                    <tr>
+                        <td style="font-weight: bold;">Id </td>
+                        <td style="font-weight: bold;">Title</td>
+                        <td></td>
+                    </tr>
+                    {% for prop in propriety %}
+                        <tr>
+                            <td>{{ prop.id }}</td>
+                            <td>{{ prop.title }}</td>
+                            <td> <a href="{{ path('AdminPropGereID',{id:prop.id}) }}" class="btn btn-primary">Update </a>
+                                <a href="{{ path('deleted',{id:prop.id}) }}" class="btn btn-danger">Delete </a>
+                            </td>
+
+                        </tr>
+
+
+
+                    {% endfor %}
+
+                </table>
+                <a href="{{ path('CreateNewProperty') }}" class="btn btn-primary">Créer un nouveau bien</a>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+{% endblock %}

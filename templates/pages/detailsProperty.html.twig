@@ -1,0 +1,50 @@
+{% extends "base.html.twig" %}
+{% block title %}Les details{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row" >
+            <div class="col-md-8">
+               <img src="{{ asset('images/myhouse.jpg') }}">
+            </div>
+            <div class="col-md-4">
+                 <h1>{{ propriety.title }}</h1>
+                <h1>{{ propriety.rooms }} pièces - {{ propriety.surface }} m²</h1>
+                <div class="text-primary" style="font-size: 4em;font-weight: bold">
+                    {{ propriety.price }} €
+                </div>
+                <a href="#" class="btn btn-primary">Contacter l'agence</a>
+            </div>
+        </div>
+
+        <p>
+            {{ propriety.description }}
+        </p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Les caractéristiques de cette maison</h2>
+                <table class="table table-striped">
+                    <tr>
+                        <td>Surface</td>
+                        <td>{{ propriety.surface }} m²</td>
+                    </tr>
+                    <tr>
+                        <td>Pièces</td>
+                        <td>{{ propriety.rooms }}</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Chambres</td>
+                        <td>{{ propriety.bedrooms }}</td>
+                    </tr>
+                    <tr>
+                        <td>Etage</td>
+                        <td>{{ propriety.floor }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

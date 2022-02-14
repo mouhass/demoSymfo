@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+{% block title 'Agence Lorem Ipsume' %}
+ {% block body %}
+     <div style="background-color: #D3D3D3">
+         <div class="container">
+             <div class="jumbotron text-center" >
+                 <h1>Agence Lorem Ipsume</h1>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                     ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                     not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                     1960s with the
+                 </p>
+             </div>
+         </div>
+     </div>
+
+
+<div class="container mt-5">
+    <h1>Les derniers biens</h1>
+    <div class="row flex ">
+        {% for prop in propriety %}
+        <div class="col-3">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a href="{{ path('property.show',{id:prop.id,slug: prop.slug}) }}">{{ prop.title }}</a>
+                    </h5>
+                   <p class="card-text">
+                       {{ prop.city }}
+                   </p>
+                    <div class="text-primary" style="font-weight: bold; font-size: 2rem">
+                        {{ prop.price }} €
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+
+
+ {% endblock %}
