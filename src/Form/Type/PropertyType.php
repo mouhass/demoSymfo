@@ -4,7 +4,10 @@
 namespace App\Form\Type;
 
 
+use App\Entity\Option;
 use App\Entity\Property;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\DataTransformer\DateTimeImmutableToDateTimeTransformer;
 use Symfony\Component\Form\Extension\Core\Type\NumberType;
@@ -24,13 +27,20 @@ class PropertyType extends AbstractType
            ->add("surface",NumberType::class,['required'=>false])
 
            ->add('rooms', NumberType::class,['required'=>false])
-           ->add('bedroom',NumberType::class,['required'=>false])
+           ->add('bedrooms',NumberType::class,['required'=>false])
            ->add('floor',NumberType::class,['required'=>false])
            ->add('price',NumberType::class,['required'=>false])
            ->add('city',TextType::class,['required'=>false])
            ->add('address',TextType::class,['required'=>false])
            ->add('postalCode', TextType::class,['required'=>false])
-           ->add('sold',NumberType::class,['required'=>false]);
+           ->add('sold',CheckboxType::class, array(
+               'label'=>'Is solded?',
+               'data'=>false,
+               'attr' => array('checked' => 'checked', 'value' => '1')
+           ))
+            ->add('options', EntityType::class, ['class'=>Option::class,'choice_label'=>'name','multiple'=>true])
+
+       ;
 //           ->add('createdat',DateTimeType::class);
 
     }

@@ -7,13 +7,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/propertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/propertyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Property.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Property.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventListener/PropertyChangedNotifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventListener/PropertyChangedNotifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Type/PropertyType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Type/PropertyType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/PropertyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PropertyRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/editer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/editer.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/property/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerPJTJ900.legacy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerPJTJ900/removed-ids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerPJTJ900/srcApp_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerGKbYZsL.legacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerGKbYZsL/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerGKbYZsL/srcApp_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW5LTlnO/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW5LTlnO/srcApp_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/UrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/UrlGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/UrlGenerator.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/UrlGenerator.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/UrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/UrlMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/UrlMatcher.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/UrlMatcher.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/annotations.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/annotations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/+/M/6HFFvEO4lJb30+i7zAHA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/+/M/6HFFvEO4lJb30+i7zAHA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/+/R/pke4hFMm88GAEXH3z0DA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/+/R/pke4hFMm88GAEXH3z0DA" afterDir="false" />
@@ -106,6 +122,7 @@
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/-/pmx2HYHmy3KhPKmYVdxQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/-/pmx2HYHmy3KhPKmYVdxQ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/6/Em7oL81z0HyWtwMLyaLw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/6/Em7oL81z0HyWtwMLyaLw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/6/ZS0QUpCOCgGh7xW9Hc3g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/6/ZS0QUpCOCgGh7xW9Hc3g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/A/+2zbPRDr-084a-siJG7Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/A/+2zbPRDr-084a-siJG7Q" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/B/TLiSZeCntNOzeJUFWFlw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/B/TLiSZeCntNOzeJUFWFlw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/E/GaxyWZy4ylKk6LkvjwYA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/E/GaxyWZy4ylKk6LkvjwYA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/E/R-kymJUg82x6lrSDUUlw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/I/E/R-kymJUg82x6lrSDUUlw" afterDir="false" />
@@ -177,6 +194,7 @@
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/R/T/BR3Iw-yfDCsR4Ejw4kCQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/R/T/BR3Iw-yfDCsR4Ejw4kCQ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/2/O6qLY1OgyhLbYQelUDiw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/2/O6qLY1OgyhLbYQelUDiw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/G/LHR3f7XGvcAuLEZCgKVA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/G/LHR3f7XGvcAuLEZCgKVA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/X/2oi2lOOjsjPazkiz+1jw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/X/2oi2lOOjsjPazkiz+1jw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/Y/V3xThr00Et5wO4Yo6L6Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/S/Y/V3xThr00Et5wO4Yo6L6Q" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/T/8/MoHlB5XAGlRkgl-E24LA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/T/8/MoHlB5XAGlRkgl-E24LA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/T/E/SHsztFQX5lQ6i4udRdnQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/qXSis40wzq/T/E/SHsztFQX5lQ6i4udRdnQ" afterDir="false" />
@@ -221,8 +239,126 @@
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerCompiler.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/4398e566e72c2c817b453ac71ee57c4a094a77c31abbf1da1a699407e5d577db.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/43/4398e566e72c2c817b453ac71ee57c4a094a77c31abbf1da1a699407e5d577db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f9/f9c0498866327427b3b32d96cace0c3430e6b0209ebbef0b5890df1a469c2577.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f9/f9c0498866327427b3b32d96cace0c3430e6b0209ebbef0b5890df1a469c2577.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/00/00c51a8cfccbea085758ef69b049def30fe1db1556738c3d0b4ab4b9c416ea8e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/02/020698a49079649f7410fb34266cc5c31f0deaba660f5886335d59aa126fbcbb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/06/062822c869b61bf9fbc1b911026b8646408d40ad13a38b826f9ca34e71b143f9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/07/077fb7a9ade3dd0cafd4dc007c5c719f55758ce85571bfa05886fe6d04dad7a2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/09/0940eb563a8cb5fd345c252146093f0a111bf0d007514706a09ddd62ca160cb4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/09/09c6d9bb0e75ae1294c7c180af1ea433da01162b6c78288a46acf9cb615a990a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0c/0c7dfeeeaef0e56c37d53245c0734578fdfc6e6aacdf56172491d5de1d6d648d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0e/0e295c25d9028038c438782b67560dd35e68f656ae8d3d53794d2f6d0d8e885c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0e/0e882d5ed35665025a764daaee9366cc2d194ec97bcb3525b9bf9b59c9a9612a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/12/1243d518022357c2a1f8d7bf5a911f68e5b2d3628a8f1605551085f1d769ba54.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/12/12ccac41a4e4d8ed5b1edf49ab70a86500a140e315f5ac1655862da228d4eaab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/17/17b5e57b9a190418e5c9ad6c562741a28f524b305bff71e69c289a46d0980e1c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/18/183183a60a227f27a87fd4b7d9fe39b808aef2bcf068191da642398485256534.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/18/1831b8c298112209fcab40347aa3150937de57397923d7e3e1e1edc0a29d5a03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1b/1b2858eb7e87338d16e166d4a8ac6efabbc3664e17733bfa1385181d6793f0e4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1b/1bf2c20a73d63ed68fc3628b96f005cc1c3a7f74496000f7ee2e10a80140003b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1c/1c2482c2d3a592c549bf518e7707436c29e0d9093e862bff1725ac22569469b3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1d/1d395c9450c6e782412e17644543afb59c02d45b4130003a2bcf7b4771d13455.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1d/1dd4826322e4723355f41372c0ce40c3467da51037c918546869e47dd94505d1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/20/205d37523883cb742da69bda2d5d0fb53d34dbb99c06d7bf1d0565025e664e2b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/20/20d52f645798f4c8d343f3df169d33748fd6ed5dc0d465c6b513a1ff0dd37181.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/22/2227aae634e667fe5baaa0b6ac3bb6f032b142095199e89f27f3bbad49baed81.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/24/2443f66dccc66984b5ba47fd625ccecd54ba8c5c50597dbe9f7a1142c164d223.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/27/27c1807cde6fc8b116a221b020fdfddc76500cbf5a4a0fabb50785973e0fb381.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2a/2ad8a75c468d54c54fef9f07130548c30e77d66704644d26e3581db42807483d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2d/2d78cddc20fe90e956a15c5f9a68ce2052595d31e32255ff1d5085311bbe82b7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/33/3305b3ff5453a97008d3bae5ba35d0114872ddb0c434f1bda7ca0268ceb14804.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/36/36dc5f5fc972d5655419701a5bf68cae0fe8071330f2dddfae7972568ca00ad1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/38/384cb87404870d239c0de8d22436f2eec857d44ed6a821e91500462dc3481e47.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/3b/3b2d20d1e9e3dd921da7ecc5d211b53356ec46963050ba327295483251e814d1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/3d/3dd2fe238ca7b2d850e50ee4f141ec7f2e7034ced2d658be2f4f229066a388d9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/42/4243f356a1979aba351dd041aa785d584293be121ed763780d9ca15d7d87a5c4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/4376aa3361a5d58de9e84d6856d16453f8acff3cb85b22e5374f554a19b89aec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/4398e566e72c2c817b453ac71ee57c4a094a77c31abbf1da1a699407e5d577db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/44/44eb308cfe315ef788c5fc68875c880249f69f2bd2e57f01002b8d4529edc559.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4f/4f3b7b0a4ae7d2b3dfe226951b6dbd34aa8fd76f31496b3fd8c4421cf7d2da15.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/56/564bd1e9fdda7928c4f9439f7b3ce34e248683497dbe1e73789c6daddca48a1d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/59/59956498c4c16e55715c06db0aba04c3585b64663ae853c072c1238788e0e069.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5ae8578b07dfc13a0f55e7e5c7e257a3df995427b44f6fda241f50ca04356995.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5b/5b1c1f36a90c8564a58a2d00033153197b3bdab755d767eadff927964793b02f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5b/5b68290060e607a517fbad88a6c42fa5bb26e6cdee436fd2c2ff9c7f39ec2dfd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5d/5dcfebd047c172745a01a5637dd39f0606690615ea1b33d58bb1e2968db16822.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5f/5f9440cd6843e5c5f5b9ef761e99a3398732920dc7ef34b3d98521c4e97de451.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/60/603a61391f0eda32aab1ef7fc4f8466a03a23236b1279c75011ed108e182ea41.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/61/611c3231d9ebb5f1fec1ad794291946f3e07fa41d2c4a7af95310285bd4acab3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/62/628f1f3a2d1a5c88921437c37cc04331a3f13a31d066563f9f74b8c22673f33f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/62/62e7942f5c01941ab7eed65947c33fabb67655a4f4057e3ef48fd2555335cc95.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/64/64cfc124594f2f13fdc8ad56a67f97bdc0313c59d82006671e3a3f34de97d1cf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/69/69992ad78d30854ec6035f2d069fe700ce6efa1b96f8214ea571c245335a696f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6a/6a9d4de4f4680ff49990deb4898c5d88ce733613ed3f53f1a45b827ebb205d51.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6d/6dc0cea8cd06a6769fc1911d9558cd23b66bf380ab67e9f9075479eea6b654ac.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6f/6f0245b1566b946083a89a6225e89e4c2bc7eee94b24f5de97db40b3104d3cee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6f/6f4b2abc15cb44efabca455047139713ad8857880960ed4c1aa67527f5dd4540.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6f/6fdb9502bf762215c62662ee75549b30d77370b60c7b81abefcb62ba0e28e143.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/71/717ec1b7dd4f1fdd9ed5f4ee46e98e73df92447b58c9327e5b3fbddf4cfc203c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7a/7a67724857946bd5bb248aee844994a53ea68e209a1fd292b2b87e00f25979c6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7c/7c07415fb436960e0a22d10ac0b1569b79ec99d759134532bd218328c8aeb386.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7e/7e4c76a7f607a8b8cd02ad8880e258d9a58ac31dba4cba359333cf7e34b7556b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7f/7f60006e8d02203d434ee175e0bfc64b8097ce0ad651ccf56d7f0c7c0115fbcc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/82/8272484b5829e44943e7e23af7c8d3bf987b08b1fcca353c9ba4eaa321217c48.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/82/827e43ea29807319eb74a0d1f1a955d27be50e9b39c62b5d50e1dfb89be65c4d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/83/838d6f5a0fed5cfecd0843a360ff1985c0c8e7aaa453904090a824829cda3f06.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/86/8642326bf2116380abd58c02d26a83ffb057bf2b974136c1ebb88fa50028204e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/86/86a52395830c9da292f3694e13ef9b2013b447170d14bc222a5343afe4f642c8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/88/8897651f19abfdb9fda9a0217035bebefa8bf98371dafcb9f25595b2c087e236.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8b/8b899ec8af9b9cc8b4d38c677acc9bc836075df87cbd6a8144d5bd56a05d598f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8c/8c900e5606aa3dec4618b9af6fda2ff25a344fc53a4140fca5adb68d52ed9179.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8d/8d4996457775a9ab756da81669a489eb1cd0273b7cca639d042475806e732be6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8d/8d681bb9966230a47d885feaf22463dea78ef354da885581979663f3a46ff0f2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/91/9101bf0a0548de15c691c3ac63ddbe53e3582a70c15fec91d6e18c21fa0155d1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/92/92b954f49efce2bae00ea88137b9de83390022cba565624f80776e2eb29e4735.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/94/9499809c8e679c466977c056fecc449b73da2ca2e3857853e68fd6a0d8fb6c19.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/94/94a655b75cb62ff6fd0362579c9f6a2b9a4da71e4d9305df500ea5f9808c067e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/94/94f3c27957895ce4d8529b2d2155f3dd95db806d0f45c7240e4c6590177d3bb2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/97/97dadd7aaf4aa1433fa557d7435dd7016380a24966cc5b1e4700d22dcc3594cb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/98/9890cb9b4ad08deb10c6af3e1e7a0140f262ff7bf4c4516df5edd2fee868e2a2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/9b/9bebd0e34d703649ccf2319b0f3be4800e8a425cc4eea07dfb06016ac425d275.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/9c/9cd20a96aee2b051605bd00db44d66c820ffafdc62340a8f170621b48fefd470.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/9e/9edcbed307946ddf736053dc46aaabd222ad0a96e9cc61f64b579d8dc3e04cf4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/a2/a299a36f304d26760f8ef2dd207d0482e1d1f6552ad2a98907d20a1fe88300a5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/a4/a4832770d79441e575dcd416ecf9f172f77c1329d40378cae4379efbc52461b4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/a5/a5944d5960208e3a53fda63d7657d35b454c5587b30d9ecc1652b2de671a576f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/a7/a767337983961b4f2c736a0942a93b60caedd401b8a8331bc2e9860822cc8740.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/a8/a869a2d97cfe6755c6a14b6b08afc787a1cb1b93adb22c600d604260ed153cf5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/aa/aa026b89b9287780d1502b1853fcd12f158cc488fef76845366218edfddc3847.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/aa/aa536e97c78b6c680c552c239379f916fb303b680a3e253376880c61146a886e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ab/aba3d99d1d50afdc393f125914ec0ecf363ae150d8f614fefa0fc279fcda419a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ad/adddbc27a8860e9db4548f81fd601e81d026a2d145cb5de985d0ebaf3ed6a14c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/af/af8a21a82c9aa12fe3b2db29b66b71e938c6d24d9685d325c538b56c55af3a90.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b1/b18f4b915f8f1ba9184d7f5dad1f8744cfdefce4557c28e9a5578cea6cc0a410.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b2fa25332f5355dfea22c618ba98650e9b5e002f79ad38f894c29921dee60a13.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b3/b3bba5224df199561574d08b60d02343b55eb102220d7350b0dc01a5e5071ed3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b9/b96871eefacebd1ce0a08a525d9f22f05be9f840e614cd614610c4ada79b627d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bc/bc8ea5ec9c79f7a2640368f5ee4b152c5f1ace950256de6dd28532bfb3caceb5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bd/bddeb2f5cce7b47da07387ab2e1c372a97ed8ca3c014f9bd2e46472892ad82a0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/be/be972ce063b6cd9b8ea4cdbe78b26c180dcb73b86410f72019610e0a473458bc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c2/c2789bfc03df3ea73fa2f58ce93d86a06bfbbdbc2faf6094cd61790cde88eb5d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c5804bad16c07e7d83a69091c9814eb5bf480faef59a9b1274e576a124fe67bf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c9/c936b7657e0834f994654c8b769090cfc52cc57bc9afdd51d0b9bfec2d2537e0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ce/ced9420fccb05fa6908a04ad1508d99101f4977ade261e3fd0462e75cd85915f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cf/cf0062ccb375d974e1ec4884d1e53bc76966fea62fa02cb7a57c6d6da4c2282d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cf/cfa52539a9a5cffe4689bc48bf138d269ce904ae03f8c21f7d16b2c384e0f7e3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d0/d065905cb8a134a7a9be53af73d0f24043f0bca2a5477b7fb7c83a382eb4b457.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d0/d0d0f7d31e8dad21ff0dece4c372ed6d5fd52c51acab4042c45a6a236c9c3187.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d5/d50edd3b08c4b751366e0a99a3b41a42dcc4cde323f5e9e4e88d866d77095090.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/db/dbfff92149d4e1a1ee132b8f56289aadcd6b117a354244290f3b56f64296c633.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e0/e0d91bcfb21dc370b9a65a03327fb03f210323ab0c33cfd82e4c8ca41e0439bd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e2/e234e56cb9dbf2e1621a1e87d220408016cccc3250808a68ecbd4568ebdf154c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e4/e47eda3c7a47538abdd8ea24e7874895a910c33e5a97f7b5a94bfe78bc5f9b0e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e7/e74fdd511e3351e3b24eb70d4566ed0c8f37b9563e8d08a12ab51bec17bc81a2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e8/e8d01fc95dd71d502b70a83b7df5996fabeea0bdae511fc22a41d4a15e066fc1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e9/e91abcadd2a572e9b744a149c2e5b9ed23651fd16fe7de61e99058d01cac7db2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ea/ea5405b973955558ac3fe9ceaad45bd424b2ddaedc02ff874936d89954af6218.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ed/edb30cfd0229343266794caf1c43c7fb3407d942e4147bf0ee22147df9e2e0af.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ef/efaf031f7bab655d9af770da6af59bfe772ffafead1d4491d9cf953734b4ffbd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f9/f9c0498866327427b3b32d96cace0c3430e6b0209ebbef0b5890df1a469c2577.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f9/f9e7d65722096c55a13a02621f06170829c20791d5379063b8f42f018791adb2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fa/fa76eafcc4c51fe6b1af1e889b67ecc36e4e33f42464d2aa35b29294c12cb216.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fb/fbeca241151a8c790d107410f51f49d74ad7f8e57d8d173e6ad4b2fc280e8f87.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ff/ffc544a5faafcd6874616d0a76492f81e3bc4c7db18440300de6327b88a119b1.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
@@ -256,17 +392,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="masuperagence@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="masuperagence@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="masuperagence@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="masuperagence: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -275,43 +400,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/propertyController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-              <folding>
-                <element signature="e#36#60#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/property/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/pages/editer.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="334">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/UserFixtures.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminOptionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="229">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/gererProp.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
-                <element signature="e#36#56#0#PHP" expanded="true" />
+                <element signature="e#42#66#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -320,65 +442,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="269">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixutre.php">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
               <folding>
-                <element signature="e#36#60#0#PHP" expanded="true" />
+                <element signature="e#29#67#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="10" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="37" selection-end-column="10" />
-              <folding>
-                <element signature="e#99#132#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-              <folding>
-                <element signature="e#30#64#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/myTemplates/prop.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Option.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Form/PropertySearchType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Form/Type/PropertyType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
               <folding>
-                <element signature="e#36#101#0#PHP" expanded="true" />
+                <element signature="e#35#57#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Form/OptionType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -388,6 +504,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>entity</find>
+      <find>getbedroo</find>
+      <find>solde</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -396,13 +514,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Controller/BonjourController.php" />
-        <option value="$PROJECT_DIR$/templates/property/index.html.twig.php" />
-        <option value="$PROJECT_DIR$/src/Controller/loginController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/InscriptionController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/ProductController.php" />
-        <option value="$PROJECT_DIR$/src/Service/MessageGenerator.php" />
-        <option value="$PROJECT_DIR$/templates/myTemplates/useService.html.twig" />
         <option value="$PROJECT_DIR$/templates/myTemplates/inscription.html.twig" />
         <option value="$PROJECT_DIR$/src/Service/SiteUpdateManager.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/HelloController.php" />
@@ -418,31 +529,42 @@
         <option value="$PROJECT_DIR$/src/Command/CreateUserCommand.php" />
         <option value="$PROJECT_DIR$/src/Command/CreatePropertyCommand.php" />
         <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/src/Repository/PropertyRepository.php" />
         <option value="$PROJECT_DIR$/templates/pages/detailsProperty.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
-        <option value="$PROJECT_DIR$/src/Form/Type/PropertyType.php" />
-        <option value="$PROJECT_DIR$/templates/pages/editer.html.twig" />
-        <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/src/EventListener/PropertyChangedNotifier.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/templates/pages/deleteProperty.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
         <option value="$PROJECT_DIR$/templates/pages/home.html.twig" />
         <option value="$PROJECT_DIR$/templates/pages/gererProp.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Property.php" />
         <option value="$PROJECT_DIR$/src/Controller/LoginController.php" />
         <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/templates/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/config/routes.yaml" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/PropertyFixutre.php" />
+        <option value="$PROJECT_DIR$/config/packages/paginator.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Propertysearch.php" />
+        <option value="$PROJECT_DIR$/src/Entity/PropertySearch.php" />
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/PropertyFixutre.php" />
-        <option value="$PROJECT_DIR$/src/Controller/propertyController.php" />
+        <option value="$PROJECT_DIR$/src/EventListener/PropertyCreater.php" />
+        <option value="$PROJECT_DIR$/src/EventListener/PropertyCreator.php" />
+        <option value="$PROJECT_DIR$/src/EventListener/PropertyChangedNotifier.php" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/templates/property/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/propertyController.php" />
+        <option value="$PROJECT_DIR$/src/Form/PropertySearchType.php" />
+        <option value="$PROJECT_DIR$/src/Repository/PropertyRepository.php" />
+        <option value="$PROJECT_DIR$/src/Form/OptionType.php" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/AdminOptionController.php" />
+        <option value="$PROJECT_DIR$/templates/admin/option/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/admin/option/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/Type/PropertyType.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Property.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Option.php" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/pages/editer.html.twig" />
       </list>
     </option>
   </component>
@@ -534,25 +656,16 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
     </include_path>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/projetSymfony.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="844" />
-    <option name="y" value="94" />
+    <option name="x" value="550" />
+    <option name="y" value="190" />
     <option name="width" value="1400" />
-    <option name="height" value="794" />
+    <option name="height" value="781" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -569,16 +682,6 @@
             <path>
               <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="projetSymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetSymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetSymfony" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -591,18 +694,13 @@
               <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="projetSymfony" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="projetSymfony" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetSymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="myTemplates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projetSymfony" type="b2602c69:ProjectViewProjectNode" />
@@ -627,6 +725,7 @@
     <property name="DatabaseDriversLRU" value="exasol&#10;mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -635,6 +734,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\projectSymfony\oldVersion\projetSymfony\templates\admin" />
+      <recent name="C:\wamp64\www\projectSymfony\oldVersion\projetSymfony\src\Controller\Admin" />
       <recent name="C:\wamp64\www\projectSymfony\oldVersion\projetSymfony\src\AppBundle\Controller" />
     </key>
   </component>
@@ -667,16 +768,17 @@
       <workItem from="1644480660594" duration="28600000" />
       <workItem from="1644567835656" duration="25560000" />
       <workItem from="1644826954867" duration="23035000" />
+      <workItem from="1644911729659" duration="21135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136607000" />
+    <option name="totallyTimeSpent" value="157742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7681499" visible="true" weight="0.18123667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7681499" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.23185012" side_tool="true" weight="0.17963752" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -690,7 +792,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26002166" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30985916" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -702,86 +804,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/migrations/Version20220207132629.php" />
-    <entry file="file://$PROJECT_DIR$/migrations/Version20220207163449.php" />
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ProductController.php" />
-    <entry file="uml://PHP/C:/wamp64/www/projectSymfony/oldVersion/projetSymfony/src/Controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>$PROJECT_DIR$/src/Controller</OriginalElement>
-          <nodes>
-            <node x="" y="">\App\Controller\LoginController</node>
-            <node x="" y="">\Symfony\Contracts\Service\ServiceSubscriberInterface</node>
-            <node x="" y="">\App\Controller\propertyController</node>
-            <node x="" y="">\App\Controller\InscriptionController</node>
-            <node x="" y="">\App\Controller\HomeController</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\ControllerTrait</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="328.0" y="91.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://061256a4-aaaf-47e8-90ff-10d8c111abb7/schema/masuperagence/table/property">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="e37becc2-318b-4493-9b4c-b20d8b8bb1c1">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/myTemplates/inscription.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/HelloController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/SiteUpdateManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/TaskController.php" />
-    <entry file="file://$PROJECT_DIR$/.env.local.php" />
-    <entry file="file://$PROJECT_DIR$/src/Controller/messageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#33#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/cache/dev/Container0d99PBQ/srcApp_KernelDevDebugContainer.php" />
-    <entry file="file://$PROJECT_DIR$/migrations/Version20220211120005.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Command/CreatePropertyCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -812,23 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/myTemplates/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/PropertyRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myTemplates/login.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/myTemplates/useservice.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -874,33 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/Type/PropertyType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#35#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventListener/PropertyChangedNotifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding>
-            <element signature="e#37#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/deleteProperty.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -915,44 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/gererProp.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <element signature="e#314#340#0#HTML" expanded="true" />
-            <element signature="e#370#396#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/editer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#42#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding>
-            <element signature="e#29#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/validator.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -960,26 +901,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#36#101#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/InscriptionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#36#101#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/LoginController.php" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/InscriptionController.php" />
     <entry file="file://$PROJECT_DIR$/templates/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1001,6 +924,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/UserFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixutre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="10" selection-start-line="19" selection-start-column="3" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myTemplates/prop.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1011,81 +971,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/validator/Constraints/Range.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/PropertySearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/Version20220215100647.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventListener/PropertyCreator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#39#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventListener/PropertyChangedNotifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="e#30#64#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+    <entry file="file://$PROJECT_DIR$/config/packages/paginator.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixutre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#36#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/myTemplates/prop.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/UserFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#99#132#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/propertyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        <state relative-caret-position="244">
+          <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
           <folding>
             <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/PropertyRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="105" column="71" selection-start-line="105" selection-start-column="71" selection-end-line="105" selection-end-column="71" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/Version20220215133611.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/option/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/option/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/option/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+          <folding>
+            <element signature="e#29#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/property/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="385">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/PropertySearchType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/OptionType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/gererProp.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#42#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Type/PropertyType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+          <folding>
+            <element signature="e#35#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminOptionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/editer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,10 @@
 namespace App\Repository;
 
 use App\Entity\Property;
+use App\Entity\PropertySearch;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\ORM\Query;
+use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
@@ -81,6 +84,35 @@ class PropertyRepository extends ServiceEntityRepository
             ->orderBy('p.price','ASC');
         $sql = $qb->getQuery();
         return $sql->execute();
+
+    }
+
+    public function findSpecific(PropertySearch $search):Query
+    {
+        $query = $this->findVisibleQuery();
+       if($search->getMaxPrice()and $search->getMinSurface()==0){
+           $query = $query->where('p.price <= :maxprice')
+               ->setParameter('maxprice', $search->getMaxPrice());
+
+
+       }
+        else if($search->getMinSurface()and $search->getMaxPrice()==0){
+           $query = $query->where('p.surface >= :minSurface')
+               ->setParameter('minSurface', $search->getMinSurface());
+       }
+        else
+            $query = $query->where('p.surface >= :minSurface and p.price <= :maxprice')
+                ->setParameter('maxprice', $search->getMaxPrice())
+                ->setParameter('minSurface', $search->getMinSurface());
+            ;
+
+
+       return $query->getQuery();
+    }
+
+    public function findVisibleQuery():QueryBuilder{
+        return $this->createQueryBuilder('p')
+            ->where('p.sold=0');
 
     }
 

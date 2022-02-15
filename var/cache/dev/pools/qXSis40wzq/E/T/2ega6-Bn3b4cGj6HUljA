@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CPropertySearch%2523getMinSurface
+
+return [PHP_INT_MAX, []];

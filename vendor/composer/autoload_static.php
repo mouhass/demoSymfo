@@ -50,6 +50,7 @@ class ComposerStaticInitd3410e5373e0ad9f68387e72d9792f1e
             'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
+            'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\Stopwatch\\' => 28,
             'Symfony\\Component\\Security\\Http\\' => 32,
             'Symfony\\Component\\Security\\Guard\\' => 33,
@@ -98,6 +99,11 @@ class ComposerStaticInitd3410e5373e0ad9f68387e72d9792f1e
         'L' => 
         array (
             'Laminas\\Code\\' => 13,
+        ),
+        'K' => 
+        array (
+            'Knp\\Component\\' => 14,
+            'Knp\\Bundle\\PaginatorBundle\\' => 27,
         ),
         'F' => 
         array (
@@ -222,6 +228,10 @@ class ComposerStaticInitd3410e5373e0ad9f68387e72d9792f1e
         'Symfony\\Component\\Validator\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/validator',
+        ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
         ),
         'Symfony\\Component\\Stopwatch\\' => 
         array (
@@ -390,6 +400,14 @@ class ComposerStaticInitd3410e5373e0ad9f68387e72d9792f1e
         'Laminas\\Code\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-code/src',
+        ),
+        'Knp\\Component\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-components/src/Knp/Component',
+        ),
+        'Knp\\Bundle\\PaginatorBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-paginator-bundle/src',
         ),
         'Faker\\' => 
         array (

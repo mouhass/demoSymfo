@@ -52,9 +52,8 @@ services:
         tags:
             - # these are the options required to define the entity listener
                 name: 'doctrine.orm.entity_listener'
-                event: 'preUpdate'
+                event: 'prePersist'
                 entity: 'App\Entity\Property'
-
 
 
 

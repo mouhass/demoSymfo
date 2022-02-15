@@ -7,6 +7,10 @@ security:
 #                    demo:
 ##                        password: demo
 ##                        roles: ROLE_ADMIN
+    encoders:
+        App\Entity\User:
+            algorithm: bcrypt
+            cost: 12
     providers:
         from_database:
             entity:
@@ -31,7 +35,3 @@ security:
     access_control:
         - {path: ^/admin, roles: ROLE_ADMIN}
 
-    encoders:
-        App\Entity\User:
-            algorithm: bcrypt
-            cost: 12

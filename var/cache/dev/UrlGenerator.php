@@ -4,6 +4,11 @@
 
 return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format'], ['variable', '/', '\\d+', 'code'], ['text', '/_error']], [], []],
+    'option_index' => [[], ['_controller' => 'App\\Controller\\Admin\\AdminOptionController::index'], [], [['text', '/admin/option/']], [], []],
+    'option_new' => [[], ['_controller' => 'App\\Controller\\Admin\\AdminOptionController::new'], [], [['text', '/admin/option/new']], [], []],
+    'option_show' => [['id'], ['_controller' => 'App\\Controller\\Admin\\AdminOptionController::show'], [], [['variable', '/', '[^/]++', 'id'], ['text', '/admin/option']], [], []],
+    'option_edit' => [['id'], ['_controller' => 'App\\Controller\\Admin\\AdminOptionController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id'], ['text', '/admin/option']], [], []],
+    'option_delete' => [['id'], ['_controller' => 'App\\Controller\\Admin\\AdminOptionController::delete'], [], [['variable', '/', '[^/]++', 'id'], ['text', '/admin/option']], [], []],
     'AdminPropGere' => [[], ['_controller' => 'App\\Controller\\Admin\\AdminPropertyController::index'], [], [['text', '/admin']], [], []],
     'AdminPropGereID' => [['id'], ['_controller' => 'App\\Controller\\Admin\\AdminPropertyController::editer'], [], [['variable', '/', '[^/]++', 'id'], ['text', '/admin']], [], []],
     'deleted' => [['id'], ['_controller' => 'App\\Controller\\Admin\\AdminPropertyController::delete'], [], [['variable', '/', '[^/]++', 'id'], ['text', '/admin/DeleteElement']], [], []],

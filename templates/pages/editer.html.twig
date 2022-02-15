@@ -10,7 +10,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">{{ form_row(propertyForm.rooms) }}</div>
-                    <div class="col-md-4">{{ form_row(propertyForm.bedroom) }}</div>
+                    <div class="col-md-4">{{ form_row(propertyForm.bedrooms) }}</div>
                     <div class="col-md-4">{{ form_row(propertyForm.floor) }}</div>
                 </div>
 
@@ -23,4 +23,13 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block stylesheets %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block javascripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>$('select').select2();</script>
 {% endblock %}

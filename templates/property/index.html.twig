@@ -2,6 +2,17 @@
 {% block title 'Tous nos produits' %}
 {% block body %}
 <div class="container mt-4">
+        <div class="jumbotron">
+            <div class="container">
+                {{ form_start(form) }}
+                <div class="row">
+                    <div class="col-md-4">{{ form_row(form.maxPrice) }}</div>
+                    <div class="col-md-4">{{ form_row(form.minSurface) }}</div>
+                    <div class="col-md-4">{{ form_row(form.submit) }}</div>
+                </div>
+                {{ form_end(form) }}
+            </div>
+        </div>
 
         <h1>Les produits</h1>
 
@@ -25,7 +36,10 @@
         {% endfor %}
     </div>
 
+    <div class="navigation mt-5">
+        {{ knp_pagination_render(product) }}
+    </div>
+
     <br>
-{#    <a href="{{ path('property.new') }}">Remplir le formulaire</a>#}
 </div>
 {% endblock %}

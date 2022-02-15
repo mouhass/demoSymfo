@@ -5,10 +5,13 @@ namespace App\Controller;
 
 
 use App\Entity\Property;
+use App\Entity\PropertySearch;
+use App\Form\PropertySearchType;
 use App\Form\Type\PropertyType;
 use App\Repository\PropertyRepository;
 
 use Doctrine\ORM\EntityManagerInterface;
+use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Component\HttpFoundation\Response;
@@ -82,11 +85,23 @@ class propertyController extends AbstractController
      *
      */
 
-   public function index(ManagerRegistry $doctrine,ValidatorInterface $validator, PropertyRepository $propertyRepository){
-        $product = $propertyRepository->findAll();
+   public function index(PaginatorInterface $paginator, PropertyRepository $propertyRepository,Request $request){
+       $search = new PropertySearch();
+       $form = $this->createForm(PropertySearchType::class,$search);
+       $form->handleRequest($request);
+
+
+
+       $product =$paginator->paginate(
+            $propertyRepository->findSpecific($search),//la methode à utilisr pour la pagination
+            $request->query->getInt('page',1),
+            12
+        )
+           ;
 
        return $this->render('property/index.html.twig',[
-           'product'=>$product
+           'product'=>$product,
+           'form'=>$form->createView()
        ]);
 
    }
@@ -100,32 +115,32 @@ class propertyController extends AbstractController
     /**
      * @Route("/createNewProperty",name="CreateNewProperty")
      */
-    public function createNewProperty(Request $request){
+    public function createNewProperty(Request $request, ValidatorInterface $validator){
         $property = new Property();
 
-        $form = $this->createForm(PropertyType::class);
+        $form = $this->createForm(PropertyType::class, $property);
 
         $form->handleRequest($request);
 
 
         if($form->isSubmitted() && $form->isValid()){
-            $data = $form->getData();
+            $property = $form->getData();
 
-            $property->setTitle($data['title'] ? $data['title']: $property->getTitle());
-            $property->setDescription($data['description'] ? $data['description'] : $property->getDescription());
-            $property->setSurface($data['surface'] ? $data['surface'] : $property->getSurface());
-            $property->setRooms($data['rooms'] ? $data['rooms'] : $property->getRooms());
-            $property->setBedrooms($data['bedroom'] ? $data['bedroom'] : $property->getBedrooms());
-            $property->setFloor($data['floor'] ? $data['floor'] : $property->getFloor());
-            $property->setPrice($data['price'] ? $data['price'] : $property->getPrice());
-            $property->setCity($data['city'] ? $data['city'] : $property->getCity());
-            $property->setAddress($data['address'] ? $data['address'] : $property->getAddress());
-            $property->setPostalCode($data['postalCode'] ? $data['postalCode'] : $property->getPostalCode());
-            $property->setSold($data['sold'] ? $data['sold'] : $property->getSold());
+//            $property->setTitle($data['title'] ? $data['title']: $property->getTitle());
+//            $property->setDescription($data['description'] ? $data['description'] : $property->getDescription());
+//            $property->setSurface($data['surface'] ? $data['surface'] : $property->getSurface());
+//            $property->setRooms($data['rooms'] ? $data['rooms'] : $property->getRooms());
+//            $property->setBedrooms($data['bedroom'] ? $data['bedroom'] : $property->getBedrooms());
+//            $property->setFloor($data['floor'] ? $data['floor'] : $property->getFloor());
+//            $property->setPrice($data['price'] ? $data['price'] : $property->getPrice());
+//            $property->setCity($data['city'] ? $data['city'] : $property->getCity());
+//            $property->setAddress($data['address'] ? $data['address'] : $property->getAddress());
+//            $property->setPostalCode($data['postalCode'] ? $data['postalCode'] : $property->getPostalCode());
+//            $property->setSold($data['sold'] ? $data['sold'] : $property->getSold());
 //             $property->setCreatedAt($data['createdat'] ? $data['createdat'] : $property->getCreatedAt());
 
             $em=$this->manager;
-
+            //$property->setCreatedBy($this->getUser());
             $em->persist($property);
             $em->flush();
 

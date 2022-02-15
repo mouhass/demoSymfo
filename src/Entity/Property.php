@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 use App\Repository\PropertyRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 use Cocur\Slugify\Slugify;
@@ -22,6 +24,7 @@ class Property
     {
         $this->created_at = new \DateTimeImmutable();
         $this->sold = false;
+        $this->options = new ArrayCollection();
     }
 
     /**
@@ -97,6 +100,17 @@ class Property
      * @ORM\Column(type="datetime_immutable")
      */
     private $created_at;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=User::class, inversedBy="properties")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $createdBy;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=Option::class, mappedBy="properties")
+     */
+    private $options;
 
     public function getSlug():string {
        $slugify = new Slugify();
@@ -260,6 +274,45 @@ class Property
     public function setCreatedAt(\DateTimeImmutable $created_at): self
     {
         $this->created_at = $created_at;
+
+        return $this;
+    }
+
+    public function getCreatedBy(): ?User
+    {
+        return $this->createdBy;
+    }
+
+    public function setCreatedBy(?User $createdBy): self
+    {
+        $this->createdBy = $createdBy;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Option[]
+     */
+    public function getOptions(): Collection
+    {
+        return $this->options;
+    }
+
+    public function addOption(Option $option): self
+    {
+        if (!$this->options->contains($option)) {
+            $this->options[] = $option;
+            $option->addProperty($this);
+        }
+
+        return $this;
+    }
+
+    public function removeOption(Option $option): self
+    {
+        if ($this->options->removeElement($option)) {
+            $option->removeProperty($this);
+        }
 
         return $this;
     }

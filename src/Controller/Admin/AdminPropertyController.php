@@ -46,7 +46,7 @@ private $manager;
 
        $property = $this->repositiry->findOneBySomeField($id);
 
-        $form = $this->createForm(PropertyType::class);
+        $form = $this->createForm(PropertyType::class,$property);
 
         $form->handleRequest($request);
 
